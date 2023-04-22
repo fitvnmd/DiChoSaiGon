@@ -1,0 +1,12 @@
+Scaffold-DbContext "Server=XTEAM;Database=dbMarkets;Integrated Security=true;" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models -Force
+Scaffold-DbContext "Data Source=localhost,1433;Initial Catalog=dbMarkets;User ID=sa;Password=Password.1" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models -Force
+
+
+
+------------------
+Sét DataSource file appsettings.jon trước sau đó chạy
+
+Scaffold-DbContext "Data Source=DESKTOP-BDD22C5\HUYTEST;Initial Catalog=dbMarkets;Integrated Security=True" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models -Force
+Scaffold-DbContext "Data Source=DESKTOP-BDD22C5\HUYTEST;Initial Catalog=dbMarkets;Integrated Security=True" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models
+
+
